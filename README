@@ -1,0 +1,8 @@
+dependencias
+pyautogui
+keyboard
+pynput
+selenium
+scikit-learn
+mysql-connector-python
+openai
