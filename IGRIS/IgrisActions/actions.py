@@ -29,16 +29,13 @@ def OpenWebTools():
 #autentica no portal
     """ assert "Entrar em sua conta" in tabs.title
     elem = tabs.find_element(By.ID, "i0118")
-    elem.send_keys('IronMharkv10$@')
     pyautogui.press('enter') """
 #tempo da autenticação
     time.sleep(3)
 #autentica
-    pyautogui.write('cristhian.moura@autoglass.com.br')
     time.sleep(1)
     pyautogui.press('enter')
     time.sleep(2)
-    pyautogui.write('IronMharkv10$@')
     time.sleep(1)
     pyautogui.press('enter')
 #abre as ferramentas em novas guias
@@ -72,5 +69,4 @@ def OpenPLSQL():
     time.sleep(1)
     pyautogui.press('enter')
     time.sleep(7)
-    pyautogui.write('Ironmharkv10#')
 
